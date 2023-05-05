@@ -7,6 +7,8 @@ module.exports = {
       legored: '#d5040a',
       legoblue: '#036cb6',
       white: '#fff',
+      black: '#000',
+      stone: '#d6d3d1'
     },
     fontFamily: {
       display: 'Lato, Arial, sans-serif'
@@ -20,7 +22,8 @@ module.exports = {
         navbar: 'navbar 2s 0.5s ease-in-out',
         maincontent: 'maincontent 2s 0.5s ease-in-out',
         super: 'super 0.5s 2s ease-in-out forwards',
-        superman: 'superman 1.5s 1.5s ease-in-out forwards'
+        superman: 'superman 1.5s 1.5s ease-in-out forwards',
+        footer: 'footer 1.5s 1.5 ease-in-out forwards',
       },
       keyframes: {
         loader: {
@@ -89,9 +92,9 @@ module.exports = {
             transform: 'translateX(150px)'
           },
           '100%': {
-            transform: 'translateX(0px)'
+            transform: 'translateX(-50px)'
           }
-        }
+        },
       }
     },
   },
