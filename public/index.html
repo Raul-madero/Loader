@@ -8,50 +8,48 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body class="w-full h-full overflow-hidden">
-    <div class="relative h-screen">
+    <div class="relative h-screen w-screen">
         <!-- Seccion Principal -->
-        <section class="absolute z-10">
-            <nav class="">
-                <div class="">
-                    <img src="" alt="">
-                    <ul>
-                        <li><a href="/" class="">EXCLUSIVOS</a></li>
-                        <li><a href="/">NUEVOS</a></li>
-                        <li><a href="/">GIFT CARDS</a></li>
-                        <li><a href="/">FIND A STORE</a></li>
+        <section class="w-screen h-screen absolute z-10 grid grid-cols-[55%_45%] grid-rows-[20%_50%_30%]">
+            <nav class="col-span-1 row-span-1 bg-legoyellow rounded-br-full">
+                <div class="w-full h-20 flex items-center justify-evenly py-20 px-10 animate-navbar">
+                    <img class="w-20 h-20" src="../src/img/lego.png" alt="">
+                    <ul class="flex items-center justify-evenly px-20 "> 
+                        <li class="mx-10 text-legored font-semibold"><a href="/" class="">EXCLUSIVOS</a></li>
+                        <li class="mx-10 text-legored font-semibold"><a href="/">NUEVOS</a></li>
+                        <li class="mx-10 text-legored font-semibold"><a href="/">GIFT CARDS</a></li>
+                        <li class="mx-10 text-legored font-semibold"><a href="/">FIND A STORE</a></li>
                     </ul>
                 </div>
             </nav>
-
-            <section class="">
-                <p>Diseña tu </p>
-                <h1>Super Heroe!</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus molestias mollitia doloribus fuga soluta similique cupiditate in, nihil officia dolore rerum magni, ab repellat impedit adipisci quasi facilis a harum.</p>
+            <section class="col-span-1 row-span-3 grid grid-cols-6 items-center">
+                <p class="-rotate-90 text-4xl opacity-0 animate-super">Superman</p>
+                <img class="absolute col-start-2 col-end-4 w-96 h-9/12 z-30 animate-superman" src="../src/img/super-man.png" alt="">
+                <div class="w-full h-screen col-start-4 z-10 col-end-7 bg-legoyellow"></div>
             </section>
-
-            <section class="">
-                <p>Superman</p>
-                <img src="" alt="">
-                <div></div>
+            <section class="col-span-1 row-span-1 flex flex-col justify-center p-24 animate-maincontent">
+                <p class="block w-64 font-thin text-4xl text-center">Diseña tu </p>
+                <h1 class="font-extrabold text-6xl mb-20">Súper Héroe!</h1>
+                <p class="block w-1/2 font-normal text-lg text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus molestias mollitia doloribus fuga soluta similique cupiditate in, nihil officia dolore rerum magni, ab repellat impedit adipisci quasi facilis a harum.</p>
             </section>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <img src="" alt="">
-            </div>
-            <section>
-
+            <section class="col-span-1 row-span-1">
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <img src="" alt="">
+                </div>
             </section>
+            
         </section>
         <!-- Loader -->
         <section class="w-screen h-screen flex items-center justify-center bg-white absolute z-30 animate-loader">
-            <div class="bg-amber-500 w-10 h-10 rounded-full mx-2.5 animate-scaling"></div>
-            <div class="bg-amber-500 w-10 h-10 rounded-full mx-2.5 animate-scaling1"></div>
-            <div class="bg-amber-500 w-10 h-10 rounded-full mx-2.5 animate-scaling2"></div>
+            <div class="bg-legoyellow w-10 h-10 rounded-full mx-2.5 animate-scaling"></div>
+            <div class="bg-legoyellow w-10 h-10 rounded-full mx-2.5 animate-scaling1"></div>
+            <div class="bg-legoyellow w-10 h-10 rounded-full mx-2.5 animate-scaling2"></div>
         </section>
         <section>
 
